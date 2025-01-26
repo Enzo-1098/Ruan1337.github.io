@@ -8,14 +8,14 @@ let settingsTitleList = [
     ["方块", "外观", "统计", "配色", "控制", "计时器", "通用", "分组"]
 ];
 let settingsLanguageList = [
-    ["Puzzle width (2 ~ 20)", "Puzzle height (2 ~ 20)", "Solve type", "Marathon solves (> 1)", "Multiblind solves (> 1)", "Text color",
+    ["Puzzle width (2 ~ 100)", "Puzzle height (2 ~ 100)", "Solve type", "Marathon solves (> 1)", "Multiblind solves (> 1)", "Text color",
     "Text size ratio (0 ~ 1)", "Puzzle size (> 0)", "Margin (>= 0)", "Fillet radius ratio (0 ~ 0.5)", "Border of pieces", "Base (2 ~ 36)",
     "Color scheme", "Rainbow lightness",
     "Live pieces: done", "current", "next", "other", "Invert keyboard controls", "Hover on", "Language",
     "Time/TPS accuracy", "Time format", "Timer update", "Rolling average length 1 (3 ~ 1000)",
     "Rolling average length 1 (3 ~ 1000)", "Rolling average type 1", "Rolling average type 2", "About", "Hide function button", 
     "Add scramble in details", "Hide summary"],
-    ["横向阶数 (2 ~ 20)", "纵向阶数 (2 ~ 20)", "模式", "连拧个数 (> 1)", "多盲个数 (> 1)", "文字颜色",
+    ["横向阶数 (2 ~ 100)", "纵向阶数 (2 ~ 100)", "模式", "连拧个数 (> 1)", "多盲个数 (> 1)", "文字颜色",
     "文字大小比例 (0 ~ 1)", "拼图大小 (> 0)", "间隙 (>= 0)", "圆角大小比例 (0 ~ 0.5)", "块的边界", "进制数 (2 ~ 36)",
     "配色方案", "彩虹色亮度",
     "动态配色: 已完成", "当前", "下一组", "其它块", "反转键盘控制方向", "滑动", "语言",

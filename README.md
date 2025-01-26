@@ -1,5 +1,8 @@
 Online 15Puzzle simulator 在线15Puzzle模拟器
 ==========
+- Original website by Ruan1337
+- GitHub fork by Enzo1098
+==========
 - A simple (and crude) online 15p with settings and sessions.
 - 一个简陋的在线15p, 带有设置和成绩分组功能.
 

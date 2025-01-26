@@ -15,13 +15,13 @@
     <body onload="initTouch();">
         <div id="pageRow" style="text-align: center;">
             <input id="backBtn" style="visibility: hidden;" type="button" value="Puzzle" onclick="setPage(0); resetTimer(); controlCustomizeBtn(); initPuzzle(); redraw();">
-            <input id="resultBtn" type="button" value="Result" onclick="setPage(1); resetTimer(); controlCustomizeBtn(); initPuzzle();">
-            <input id="settingsBtn" type="button" value="Settings" onclick="setPage(2); resetTimer(); controlCustomizeBtn(); initPuzzle();">
+            <input id="resultBtn" type="button" value="Result" onclick="if (unsolved) {if (clearSession()) {setPage(1); resetTimer(); controlCustomizeBtn(); initPuzzle();}} else {setPage(1); resetTimer(); controlCustomizeBtn(); initPuzzle();}">
+            <input id="settingsBtn" type="button" value="Settings" onclick="if (unsolved) {if (clearSession()) {setPage(2); resetTimer(); controlCustomizeBtn(); initPuzzle();}} else {setPage(2); resetTimer(); controlCustomizeBtn(); initPuzzle();}">
         </div>
         <div class="pg" id="mainPg" style="display: block; color: #000;">
             <div id="puzzlePg">
                 <div id="operRow" style="text-align: center;">
-                    <input id="customizeBtn" type="button" value="Customize" onclick="customizeScramble();">
+                    <input id="customizeBtn" type="button" value="Customize" onclick="//customizeScramble();">
                     <input id="scrambleBtn" type="button" value="Scramble" onclick="initPuzzle(); beforeScramble(); scramble(); afterScramble();">
                     <input id="solveBtn" type="button" value="Solve" onclick="initPuzzle(); resetTimer(); controlCustomizeBtn(); redraw(); drawSpacebarCanvas();">
                     <input id="confirmBtn" type="button" style="visibility: hidden;" value="Confirm solve" onclick="bldConfirm(); controlCustomizeBtn(); redraw();">
@@ -91,23 +91,23 @@
         <div class="pg" id="settingPg" style="display: none;">
             <table id="settingsTable">
                 <tr> <td class="setting">
-                    <span> <a href="https://github.com/Ruan1337/Ruan1337.github.io" id="about" target="_blank">About</a> </span>
+                    <span> <a href="https://github.com/Enzo-1098/Ruan1337.github.io" id="about" target="_blank">About</a> </span>
                 </td> </tr>
                 <tr> <td class="title">
                     <span id="titleLabel1"> -----Puzzle----- </span>
                 </td> </tr>
                 <tr> <td class="setting">
-                   <span id="puzzleWidthLabel"> Puzzle width (2 ~ 20) </span>
+                   <span id="puzzleWidthLabel"> Puzzle width (2 ~ 100) </span>
                     <span style="white-space: nowrap;">
                         <input class="adjText" type="text" maxlength="2" id="adjWidth" onchange="puzzleSizeOnChange(0);">
-                        <input type="range" class="slider" id="adjWidthSlider" value="4" min="2" max="20" step="1" onchange="puzzleSizeOnChange(1);">
+                        <input type="range" class="slider" id="adjWidthSlider" value="4" min="2" max="100" step="1" onchange="puzzleSizeOnChange(1);">
                     </span> 
                 </td> </tr>
                 <tr> <td class="setting">
-                    <span id="puzzleHeightLabel"> Puzzle height (2 ~ 20) </span>
+                    <span id="puzzleHeightLabel"> Puzzle height (2 ~ 100) </span>
                     <span style="white-space: nowrap;">
                         <input class="adjText" type="text" maxlength="2" id="adjHeight" onchange="puzzleSizeOnChange(0);">
-                        <input type="range" class="slider" id="adjHeightSlider" value="4" min="2" max="20" step="1" onchange="puzzleSizeOnChange(1);">
+                        <input type="range" class="slider" id="adjHeightSlider" value="4" min="2" max="100" step="1" onchange="puzzleSizeOnChange(1);">
                     </span> 
                 </td> </tr>
                 <tr> <td class="setting">

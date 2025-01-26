@@ -289,6 +289,7 @@ function clearSession() {
         localStorage.setItem("resultArray", JSON.stringify(resultArray));
         getExistSummary();
     }
+    return confirmClear;
 }
 
 function clearResult() {
