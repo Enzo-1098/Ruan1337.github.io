@@ -3,6 +3,18 @@ Changelog 变更记录
 All changes to this project will be listed here.
 对这个项目的所有变更都会在这里记录.
 
+E0.1.0 - 2025-01-27
+----------
+Added
+ - new fork by Enzo-1098
+
+Changed
+ - maximum puzzle size increased from 20 to 100
+
+Removed
+ - future Chinese translations
+ - customize scramble functionality (may be temporary)
+
 4.1.7 - 2022-02-21
 ----------
 Added 添加
