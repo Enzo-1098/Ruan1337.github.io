@@ -1,4 +1,4 @@
-let rows = 4, cols = 4, puzzleBase = 10, maxSize = 100;
+let rows = 4, cols = 4, puzzleBase = 10, maxSize = 20;
 let puzzle = [], puzzleList = [], numberBaseList = [], customizeList = [];
 let multibldPuzzle = [], multibldPuzzleSpace = [], multibldState = [], multibldStateSpace = [];
 let pieces;
