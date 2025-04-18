@@ -13,7 +13,7 @@ let settingsLanguageList = [
     "Color scheme", "Rainbow lightness",
     "Live pieces: done", "current", "next", "other", "Invert keyboard controls", "Hover on", "Language",
     "Time/TPS accuracy", "Time format", "Timer update", "Rolling average length 1 (3 ~ 1000)",
-    "Rolling average length 1 (3 ~ 1000)", "Rolling average type 1", "Rolling average type 2", "About", "Hide function button", 
+    "Rolling average length 2 (3 ~ 1000)", "Rolling average type 1", "Rolling average type 2", "About", "Hide function button", 
     "Add scramble in details", "Hide summary"],
     ["横向阶数 (2 ~ 100)", "纵向阶数 (2 ~ 100)", "模式", "连拧个数 (> 1)", "多盲个数 (> 1)", "文字颜色",
     "文字大小比例 (0 ~ 1)", "拼图大小 (> 0)", "间隙 (>= 0)", "圆角大小比例 (0 ~ 0.5)", "块的边界", "进制数 (2 ~ 36)",
